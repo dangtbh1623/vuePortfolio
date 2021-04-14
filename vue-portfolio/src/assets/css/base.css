@@ -1,0 +1,21 @@
+:root {
+    --dark-color: #334355;
+    --hell-color: #fff5e7;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Noto Sans JP", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+.resetWidth {
+    width: auto !important;
+}
