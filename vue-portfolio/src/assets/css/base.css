@@ -1,0 +1,57 @@
+:root {
+    --dark-color: #334355;
+    --hell-color: #fff5e7;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Noto Sans JP", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.resetWidth {
+    width: auto !important;
+}
+
+
+/* animation */
+
+.fadedown-enter-active,
+.fadedown-leave-active {
+    transition: all 1s ease;
+}
+
+.fadedown-enter-to,
+.fadedown-leave-from {
+    opacity: 1;
+}
+
+.fadedown-leave-to,
+.fadedown-enter-from {
+    opacity: 0;
+    transform: translateY(-5rem);
+}
+
+.fadeup-enter-active,
+.fadeup-leave-active {
+    transition: all 1s ease;
+}
+
+.fadeup-enter-to,
+.fadeup-leave-from {
+    opacity: 1;
+}
+
+.fadeup-leave-to,
+.fadeup-enter-from {
+    opacity: 0;
+    transform: translateY(5rem);
+}
