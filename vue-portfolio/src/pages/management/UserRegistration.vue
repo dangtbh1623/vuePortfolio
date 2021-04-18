@@ -1,5 +1,15 @@
 <template>
     <section>
-        User Registration
+        <the-landing></the-landing>
+        USER SIGNUP
     </section>
 </template>
+
+<script>
+import TheLanding from '../../components/layout/TheLanding.vue'
+export default {
+    components: {
+        TheLanding
+    },
+}
+</script>
