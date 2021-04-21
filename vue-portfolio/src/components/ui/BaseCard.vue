@@ -1,8 +1,8 @@
 <template>
   <div class="content">
     <div class="content__header">
-      <h2 class="header__heading">{{ heading }}</h2>
-      <p class="header__subheading">{{ subheading }}</p>
+      <h2 class="header__heading" :style="{color: setColor}">{{ heading }}</h2>
+      <p class="header__subheading" :style="{color: setColor}">{{ subheading }}</p>
     </div>
     <div class="content__text">
       <slot></slot>
@@ -12,18 +12,18 @@
 
 <script>
 export default {
-  props: ["heading", "subheading"],
+  props: ["heading", "subheading","setColor"],
 };
 </script>
 
 <style scoped>
 .content {
-  padding: 5rem 0;
+  padding: 10rem 0 5rem 0;
 }
 
 .header__heading {
   color: var(--dark-color);
-  font-size: 2rem;
+  font-size: 3.2rem;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -36,7 +36,8 @@ export default {
   font-size: 1.6rem;
   font-style: italic;
   text-align: center;
-  margin-top: 1.8rem;
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
   opacity: 0.7;
 }
 

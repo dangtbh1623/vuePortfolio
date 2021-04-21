@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="grid">
-    <div class="containe grid wide">
-      <base-card heading="The About" subheading="The Sub Heading">
+    <div class="containe grid wide ">
+      <base-card heading="The About" subheading="The Sub Heading" setColor="var(--dark-color)">
         <h1 class="title">
           <writting-effect
             basisText="Hallo,"
@@ -9,9 +9,9 @@
               'dolor sit amet consectetur',
               'suscipit dolore facere',
               'quisquam voluptas repellat iste',
-            ]" 
-            :typingSpeed=100 
-            :erasingSpeed=50
+            ]"
+            :typingSpeed="100"
+            :erasingSpeed="50"
           ></writting-effect>
         </h1>
         <div class="row">
@@ -76,9 +76,14 @@ export default {
   padding-top: 140%;
   background: url("../../assets/img/photo.jpg") top center / cover no-repeat;
   border-radius: 2.5rem;
+  z-index: 10;
 }
 
 .about__desc-btn {
   text-align: center;
 }
+
+
+
+
 </style>

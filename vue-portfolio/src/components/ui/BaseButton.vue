@@ -53,6 +53,7 @@ button:active {
   background-color: var(--hell-color);
   border-color: var(--dark-color);
    color:var(--dark-color);
+   transition: all 0.1s linear;
 }
 
 a:focus,button:focus{
@@ -76,6 +77,7 @@ outline:0;
 .outline:hover,
 .outline:active {
   background-color: #edd2ff;
+   transition: all 0.1s linear;
 }
 
 .flat:focus,
