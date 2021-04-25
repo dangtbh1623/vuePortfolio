@@ -1,5 +1,17 @@
 <template>
-  <div id="projects" class="grid">
+  <div id="projects" class="grid wave">
+    <svg
+      class="wave_top"
+      viewBox="0 0 702 46"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M702 7.66667H643.5C585 7.66667 468 7.66667 351 14.0635C234 20.3646 117 33.3021 58.5 39.6031L0 46V0H58.5C117 0 234 0 351 0C468 0 585 0 643.5 0H702V7.66667Z"
+        fill="#fff"
+      />
+    </svg>
+
     <div class="containe grid wide">
       <base-card
         heading="My Projects"
@@ -29,7 +41,7 @@
               </div>
             </div>
           </div>
-           <div class="col l-3">
+          <div class="col l-3">
             <div class="project-item">
               <img
                 src="../../assets/img/projects/1.png"
@@ -50,12 +62,9 @@
               </div>
             </div>
           </div>
-           <div class="col l-3">
+          <div class="col l-3">
             <div class="project-item">
-              <img
-                src="../../assets/img/projects/1.png"
-                class="project_photo"
-              />
+              <img :src="test" class="project_photo" />
               <div class="text">
                 <h3 class="text__heading">Title</h3>
                 <p class="text__subheading">Lorem, ipsum dolor</p>
@@ -75,6 +84,17 @@
         </div>
       </base-card>
     </div>
+    <svg
+      class="wave_bottom"
+      viewBox="0 0 702 46"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 38.3333H58.5C117 38.3333 234 38.3333 351 31.9365C468 25.6354 585 12.6979 643.5 6.39687L702 0V46H643.5C585 46 468 46 351 46C234 46 117 46 58.5 46H0V38.3333Z"
+        fill="#fff"
+      />
+    </svg>
   </div>
 </template>
 
@@ -82,12 +102,22 @@
 import BaseButton from "../ui/BaseButton.vue";
 export default {
   components: { BaseButton },
+  data() {
+    return {
+      data_url: "../../assets/img/projects/1.png",
+    };
+  },
+  computed: {
+    test() {
+      return require("@/assets/img/projects/1.png");
+    },
+  },
 };
 </script>
 
 <style scoped>
 #projects {
-  background-image: linear-gradient(to bottom right, #2c3e508c, #2c3e50);
+  background-image: linear-gradient(to top, #2c3e508c, #2c3e50);
 }
 
 .project_photo {
@@ -102,7 +132,7 @@ export default {
 }
 
 .project-item:hover {
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .project-item {
@@ -111,7 +141,6 @@ export default {
   background-clip: content-box;
   border-radius: 2rem;
   overflow: hidden;
-  
 }
 
 .text {
@@ -127,5 +156,21 @@ export default {
 
 .text__btn {
   text-align: center;
+}
+
+.wave {
+  position: relative;
+}
+
+.wave_top{
+   position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wave_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 </style>

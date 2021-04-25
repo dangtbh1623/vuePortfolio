@@ -18,8 +18,12 @@ export default {
 
 <style scoped>
 .content {
-  padding: 10rem 0 5rem 0;
+  padding: 10rem 0 7rem 0;
+  position: relative;
+  z-index: 2;
 }
+
+
 
 .header__heading {
   color: var(--dark-color);
