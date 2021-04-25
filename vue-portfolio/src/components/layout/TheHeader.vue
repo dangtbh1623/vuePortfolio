@@ -11,7 +11,7 @@
           <ul class="row">
             <li class="header__navBar-item"><a href="/">Home</a></li>
             <li class="header__navBar-item"><a href="/home#about">About</a></li>
-            <li class="header__navBar-item"><a href="#">Projects</a></li>
+            <li class="header__navBar-item"><a href="#projects">Projects</a></li>
             <li class="header__navBar-item"><a href="#">Skills</a></li>
             <li class="header__navBar-item"><a href="#">Contact</a></li>
             <li class="header__navBar-item subnav" @click="showNav" @mouseleave="leaveNavBar" >

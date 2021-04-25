@@ -19,69 +19,88 @@
         setColor="var(--hell-color)"
       >
         <div class="row">
-          <div class="col l-2"></div>
-          <div class="col l-3">
-            <div class="project-item">
-              <img
-                src="../../assets/img/projects/1.png"
-                class="project_photo"
-              />
-              <div class="text">
-                <h3 class="text__heading">Title</h3>
-                <p class="text__subheading">Lorem, ipsum dolor</p>
-                <p>
-                  sit amet consectetur adipisicing elit. Tempore accusamus,
-                  itaque voluptate, alias eveniet expedita veniam corrupti
-                  sapiente quaerat nisi ipsa modi nesciunt odio accusantium
-                  velit, sit corporis impedit nostrum.
-                </p>
-                <div class="text__btn">
-                  <base-button>Hire me now</base-button>
+          <div class="col l-2 slider_buttons">
+            <div class="slider_button">
+              <i class="material-icons back"> chevron_left </i>
+            </div>
+          </div>
+          <div class="col l-8">
+            <div class="row">
+              <div class="col l-4">
+                <div class="project-item">
+                  <img
+                    src="../../assets/img/projects/3.png"
+                    class="project_photo"
+                  />
+                  <div class="text">
+                    <h3 class="text__heading">Title</h3>
+                    <p class="text__subheading">Lorem, ipsum dolor</p>
+                    <p>
+                      sit amet consectetur adipisicing elit. Tempore accusamus,
+                      itaque voluptate, alias eveniet expedita veniam corrupti
+                      sapiente quaerat nisi ipsa modi nesciunt odio accusantium
+                      velit, sit corporis impedit nostrum.
+                    </p>
+                    <div class="text__btn">
+                      <base-button>Hire me now</base-button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-4">
+                <div class="project-item">
+                  <img
+                    src="../../assets/img/projects/2.png"
+                    class="project_photo"
+                  />
+                  <div class="text">
+                    <h3 class="text__heading">Title</h3>
+                    <p class="text__subheading">Lorem, ipsum dolor</p>
+                    <p>
+                      sit amet consectetur adipisicing elit. Tempore accusamus,
+                      itaque voluptate, alias eveniet expedita veniam corrupti
+                      sapiente quaerat nisi ipsa modi nesciunt odio accusantium
+                      velit, sit corporis impedit nostrum.
+                    </p>
+                    <div class="text__btn">
+                      <base-button>Hire me now</base-button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-4">
+                <div class="project-item">
+                  <img :src="test" class="project_photo" />
+                  <div class="text">
+                    <h3 class="text__heading">Title</h3>
+                    <p class="text__subheading">Lorem, ipsum dolor</p>
+                    <p>
+                      sit amet consectetur adipisicing elit. Tempore accusamus,
+                      itaque voluptate, alias eveniet expedita veniam corrupti
+                      sapiente quaerat nisi ipsa modi nesciunt odio accusantium
+                      velit, sit corporis impedit nostrum.
+                    </p>
+                    <div class="text__btn">
+                      <base-button>Hire me now</base-button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col l-3">
-            <div class="project-item">
-              <img
-                src="../../assets/img/projects/1.png"
-                class="project_photo"
-              />
-              <div class="text">
-                <h3 class="text__heading">Title</h3>
-                <p class="text__subheading">Lorem, ipsum dolor</p>
-                <p>
-                  sit amet consectetur adipisicing elit. Tempore accusamus,
-                  itaque voluptate, alias eveniet expedita veniam corrupti
-                  sapiente quaerat nisi ipsa modi nesciunt odio accusantium
-                  velit, sit corporis impedit nostrum.
-                </p>
-                <div class="text__btn">
-                  <base-button>Hire me now</base-button>
-                </div>
-              </div>
+
+          <div class="col l-2 slider_buttons">
+            <div class="slider_button">
+              <i class="material-icons back"> chevron_right </i>
             </div>
           </div>
-          <div class="col l-3">
-            <div class="project-item">
-              <img :src="test" class="project_photo" />
-              <div class="text">
-                <h3 class="text__heading">Title</h3>
-                <p class="text__subheading">Lorem, ipsum dolor</p>
-                <p>
-                  sit amet consectetur adipisicing elit. Tempore accusamus,
-                  itaque voluptate, alias eveniet expedita veniam corrupti
-                  sapiente quaerat nisi ipsa modi nesciunt odio accusantium
-                  velit, sit corporis impedit nostrum.
-                </p>
-                <div class="text__btn">
-                  <base-button>Hire me now</base-button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col l-2"></div>
         </div>
+        <ul class="row dots">
+          <li></li>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
       </base-card>
     </div>
     <svg
@@ -117,7 +136,8 @@ export default {
 
 <style scoped>
 #projects {
-  background-image: linear-gradient(to top, #2c3e508c, #2c3e50);
+  background: linear-gradient(0, rgba(241, 238, 238, 0.226), rgba(255, 255, 255, 0.1)), url('../../assets/img/landing.png') top center / cover no-repeat;
+  background-attachment: fixed;
 }
 
 .project_photo {
@@ -162,8 +182,8 @@ export default {
   position: relative;
 }
 
-.wave_top{
-   position: absolute;
+.wave_top {
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -172,5 +192,64 @@ export default {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.row.dots {
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.row.dots li {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: var(--hell-color);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 1rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.row.dots li:hover{
+  opacity: 1;
+}
+
+.row.dots .active {
+  width: 4.8rem;
+  opacity: 0.9;
+  border-radius: 30%;
+}
+
+.slider_buttons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.slider_button {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--hell-color);
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.slider_button:hover{
+  transform: scale(1.1); 
+}
+
+.slider_button:active{
+  transform: translate(0, 0.5rem) ;
+}
+
+
+
+.slider_button .back,
+.slider_button .next {
+  line-height: 6rem;
+    font-size: 5rem;
+    color: var(--dark-color);
 }
 </style>
