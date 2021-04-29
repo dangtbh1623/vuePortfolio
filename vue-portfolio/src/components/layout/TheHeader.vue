@@ -11,7 +11,7 @@
           <ul class="row">
             <li class="header__navBar-item"><a href="/">Home</a></li>
             <li class="header__navBar-item"><a href="/home#about">About</a></li>
-            <li class="header__navBar-item"><a href="#">Projects</a></li>
+            <li class="header__navBar-item"><a href="#projects">Projects</a></li>
             <li class="header__navBar-item"><a href="#">Skills</a></li>
             <li class="header__navBar-item"><a href="#">Contact</a></li>
             <li class="header__navBar-item subnav" @click="showNav" @mouseleave="leaveNavBar" >
@@ -90,7 +90,7 @@ li {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 3;
 }
 .logoNavigation {
   height: 5rem;
