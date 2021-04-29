@@ -446,9 +446,7 @@ animation: third 4s linear infinite;
     11%{
         opacity: 1;
     }
-    100%{
-        opacity: 1;
-    }
+    
 }
 
 @keyframes second {
@@ -461,9 +459,7 @@ animation: third 4s linear infinite;
     40%{
         opacity: 1;
     }
-    100%{
-        opacity: 1;
-    }
+    
 }
 
 @keyframes third {
@@ -476,8 +472,6 @@ animation: third 4s linear infinite;
     80%{
         opacity: 1;
     }
-    100%{
-        opacity: 1;
-    }
+    
 }
 </style>

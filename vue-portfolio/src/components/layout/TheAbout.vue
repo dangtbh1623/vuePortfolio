@@ -71,7 +71,7 @@
               quibusdam.
             </p>
             <div class="about__desc-btn">
-              <base-button class="about__desc-btn">Hire me now</base-button>
+              <base-button class="about__desc-btn" >Hire me now</base-button>
             </div>
           </div>
         </div>
