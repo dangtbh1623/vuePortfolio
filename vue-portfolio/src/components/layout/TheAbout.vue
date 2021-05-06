@@ -37,13 +37,13 @@
           ></writting-effect>
         </h1>
         <div class="row">
-          <div class="col l-4">
+          <div class="col l-4" v-appear-scrolling:rotation-zoom>
             <div class="about_photo">
               <div class="parallax-photo"></div>
             </div>
           </div>
-          <div class="about__desc col l-8">
-            <p>
+          <div class="about__desc col l-8" >
+            <p v-appear-scrolling:bottom>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
               velit similique, suscipit dolore facere nihil voluptas sit aliquam
               odit aperiam ad cupiditate odio voluptatibus excepturi illo
@@ -53,7 +53,7 @@
               maiores asperiores quasi eius odit facilis laudantium! Quos,
               quibusdam.
             </p>
-            <p>
+            <p v-appear-scrolling:bottom>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
               velit similique, suscipit dolore facere nihil voluptas sit aliquam
               odit aperiam ad cupiditate odio voluptatibus excepturi illo
@@ -70,7 +70,7 @@
               maiores asperiores quasi eius odit facilis laudantium! Quos,
               quibusdam.
             </p>
-            <div class="about__desc-btn">
+            <div class="about__desc-btn" v-appear-scrolling:left>
               <base-button class="about__desc-btn" >Hire me now</base-button>
             </div>
           </div>
@@ -122,12 +122,22 @@ export default {
 .about__desc-btn {
   text-align: center;
 }
+
+.before-enter{
+  opacity:0;
+}
+
+.enter{
+  opacity: 1;
+  transition: all 3s ease-in-out;
+}
 </style>
 
 <style>
 @keyframes wave {
   0% {
     transform: translateX(0);
+    transform: translate()
   }
   100% {
     transform: translateX(-50%);

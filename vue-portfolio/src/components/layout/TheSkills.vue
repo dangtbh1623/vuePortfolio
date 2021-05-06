@@ -9,41 +9,52 @@
         <div class="row">
           <div class="col l-5">
             <div class="row">
-              <div class="col l-3 skill-padding">
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
                 <img src="../../assets/icon/language/c.svg" alt="C language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/cpp.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein >
+                <img src="../../assets/icon/language/cpp.svg" alt="C++ language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/csharp.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/csharp2.svg" alt="C# language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/java.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/java.svg" alt="Java language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/css.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/css2.svg" alt="CSS language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/html.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/html.svg" alt="HTML language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/javascript.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/springio.svg" alt="Spring language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/firebase.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/javascript.svg" alt="Javascript language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/firebase.svg" alt="Firebase language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/sass.svg" alt="VUE language" />
               </div>
               
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/mysql.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/mysql.svg" alt="MySQL language" />
               </div>
-              <div class="col l-3 skill-padding">
-                <img src="../../assets/icon/language/c.svg" alt="C language" />
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/vue.svg" alt="VUE language" />
               </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/arduino.svg" alt="VUE language" />
+              </div>
+             
+              
             </div>
           </div>
           <div class="col l-1"></div>
-          <div class="col l-6">
+          <div class="col l-6" >
             <svg
               class="foto_skill"
               viewBox="0 0 1042 555"
@@ -466,6 +477,13 @@ export default {
 }
 .thirdCode {
   animation: third 4s linear infinite;
+}
+
+
+
+.enter{
+  opacity: 1;
+  transition: all 3s ease-in-out;
 }
 </style>
 
