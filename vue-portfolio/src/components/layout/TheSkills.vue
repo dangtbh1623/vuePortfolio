@@ -7,11 +7,56 @@
         setColor="var(--dark-color)"
       >
         <div class="row">
-          <div class="col l-6">
-              <div class="test">aaaaaaaaaaaaaaaaaaa</div>
+          <div class="col l-5">
+            <div class="row">
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/c.svg" alt="C language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein >
+                <img src="../../assets/icon/language/cpp.svg" alt="C++ language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/csharp2.svg" alt="C# language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/java.svg" alt="Java language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/css2.svg" alt="CSS language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/html.svg" alt="HTML language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/springio.svg" alt="Spring language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/javascript.svg" alt="Javascript language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/firebase.svg" alt="Firebase language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/sass.svg" alt="VUE language" />
+              </div>
+              
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/mysql.svg" alt="MySQL language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/vue.svg" alt="VUE language" />
+              </div>
+              <div class="col l-4 skill-padding" v-appear-scrolling:rotation-fadein>
+                <img src="../../assets/icon/language/arduino.svg" alt="VUE language" />
+              </div>
+             
+              
+            </div>
           </div>
-          <div class="col l-6">
-            <svg class="foto_skill"
+          <div class="col l-1"></div>
+          <div class="col l-6" >
+            <svg
+              class="foto_skill"
               viewBox="0 0 1042 555"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +151,8 @@
                   d="M355.66 104.4L332.83 268.4C332.685 269.448 332.16 270.405 331.353 271.089C330.547 271.774 329.517 272.137 328.46 272.11L145.66 267.37L142.19 267.28C141.586 267.266 140.991 267.124 140.446 266.865C139.9 266.605 139.415 266.234 139.022 265.774C138.63 265.315 138.339 264.777 138.168 264.198C137.997 263.618 137.95 263.009 138.03 262.41L163.66 90.73C163.825 89.6666 164.383 88.7037 165.224 88.0317C166.064 87.3596 167.126 87.0272 168.2 87.1L351.66 99.52C352.252 99.5543 352.83 99.7109 353.359 99.98C353.887 100.249 354.354 100.625 354.73 101.083C355.105 101.542 355.382 102.073 355.542 102.644C355.702 103.215 355.743 103.813 355.66 104.4V104.4Z"
                   fill="#65617D"
                 />
-                <path class="links_monitor"
+                <path
+                  class="links_monitor"
                   d="M175.93 99.16L156.6 250.49L324.6 255.82L345.26 109.82L175.93 99.16Z"
                   fill="#6C63FF"
                 />
@@ -114,7 +160,8 @@
                   d="M583.94 96.82H389.93C386.986 96.82 384.6 99.2063 384.6 102.15V264.82C384.6 267.764 386.986 270.15 389.93 270.15H583.94C586.884 270.15 589.27 267.764 589.27 264.82V102.15C589.27 99.2063 586.884 96.82 583.94 96.82Z"
                   fill="#65617D"
                 />
-                <path class="main_monitor"
+                <path
+                  class="main_monitor"
                   d="M580.26 108.49H394.26V252.82H580.26V108.49Z"
                   fill="#6C63FF"
                 />
@@ -127,7 +174,8 @@
                   d="M827.66 259.62C827.687 260.034 827.63 260.45 827.492 260.842C827.355 261.233 827.139 261.593 826.859 261.9C826.579 262.206 826.24 262.453 825.862 262.624C825.484 262.796 825.075 262.89 824.66 262.9L637.46 266.77C636.682 266.786 635.927 266.507 635.347 265.99C634.766 265.472 634.403 264.754 634.33 263.98L618.24 96.7C618.2 96.285 618.245 95.8662 618.372 95.4691C618.499 95.072 618.705 94.7047 618.978 94.3896C619.251 94.0745 619.585 93.8181 619.96 93.636C620.335 93.4539 620.744 93.3498 621.16 93.33L806.94 84.09L808.94 83.99C809.735 83.9481 810.515 84.2167 811.116 84.7391C811.717 85.2615 812.091 85.9969 812.16 86.79L827.66 259.62Z"
                   fill="#65617D"
                 />
-                <path class="recht_monitor"
+                <path
+                  class="recht_monitor"
                   d="M628.93 103.16L798.6 94.82L812.93 246.82L644.6 250.82L628.93 103.16Z"
                   fill="#6C63FF"
                 />
@@ -245,7 +293,8 @@
                   d="M525.95 328.54C524.481 329.197 522.979 329.777 521.45 330.28C510.67 334 499.8 337.75 488.45 339.11C477.1 340.47 465.19 339.27 455.29 333.61C454.251 333.023 453.249 332.372 452.29 331.66C451.19 309.66 448.54 288.16 448.54 288.16C448.54 288.16 535.54 247.16 525.54 279.66C521.56 292.79 522.91 311.23 525.95 328.54Z"
                   fill="black"
                 />
-                <path class="kopf"
+                <path
+                  class="kopf"
                   d="M473.18 191.93C471.753 192.307 470.257 192.345 468.813 192.041C467.368 191.737 466.014 191.1 464.86 190.18L466.94 193.07C465.714 193.211 464.472 193.083 463.301 192.695C462.13 192.306 461.058 191.666 460.16 190.82C459.971 193.407 460.079 196.007 460.48 198.57C457.038 198.736 453.65 197.673 450.92 195.57C450.867 196.472 451.091 197.369 451.563 198.14C452.035 198.91 452.732 199.518 453.56 199.88C450.103 199.467 446.613 200.326 443.743 202.297C440.872 204.267 438.817 207.215 437.96 210.59L443.18 211.07C439.078 211.946 435.396 214.193 432.74 217.44C431.14 219.44 429.92 222 430.62 224.44C431.32 226.88 434.7 228.44 436.54 226.7C433.923 229.824 432.02 233.483 430.967 237.42C429.913 241.357 429.733 245.476 430.44 249.49C430.915 251.2 431.071 252.983 430.9 254.75C430.57 256.4 429.53 257.83 429.01 259.44C428.01 262.36 428.96 265.53 429.85 268.44L434.54 283.86C436.24 289.43 437.93 295.01 440.15 300.4C441.722 303.808 443.059 307.319 444.15 310.91C445.41 315.75 445.46 321.05 448.15 325.28C449.994 327.942 452.458 330.115 455.33 331.61C465.22 337.27 477.17 338.47 488.49 337.11C499.81 335.75 510.67 332 521.44 328.28C523.833 327.559 526.129 326.552 528.28 325.28C535.73 320.4 537.39 310.42 538.78 301.63C540.33 291.83 542.4 282.05 546.07 272.83C548.25 267.34 551.07 261.77 550.59 255.89C549.98 248.08 543.8 241.75 542.27 234.07C541.758 231.503 541.782 228.858 542.34 226.3C542.814 224.776 543.08 223.195 543.13 221.6C542.96 218.38 540.32 215.9 537.84 213.83C532.46 209.337 526.907 205.09 521.18 201.09C520.89 199.09 523.61 198.23 524.84 196.65C526.58 194.42 524.78 190.88 522.14 189.84C519.5 188.8 516.54 189.48 513.79 190.17C513.969 188.762 513.689 187.335 512.992 186.099C512.294 184.863 511.217 183.885 509.919 183.311C508.621 182.737 507.173 182.597 505.79 182.912C504.406 183.227 503.161 183.981 502.24 185.06C501.51 183.385 500.343 181.938 498.862 180.868C497.381 179.799 495.639 179.147 493.82 178.98C487.19 178.46 487.06 183.53 482.82 186.32C478.58 189.11 475.08 185.43 471.82 182.75C471.221 184.265 471.031 185.911 471.27 187.522C471.509 189.134 472.168 190.654 473.18 191.93V191.93Z"
                   fill="#3F3D56"
                 />
@@ -342,19 +391,22 @@
                   d="M697.6 495.39C697.6 495.39 698.93 509.99 695.93 512.58C692.93 515.17 697.6 495.39 697.6 495.39Z"
                   fill="black"
                 />
-                <path class="firstCode"
+                <path
+                  class="firstCode"
                   d="M198.99 342.86L300.6 341.86"
                   stroke="#6C63FF"
                   stroke-width="2"
                   stroke-miterlimit="10"
                 />
-                <path class="secondCode"
+                <path
+                  class="secondCode"
                   d="M198.99 355.33L300.6 354.34"
                   stroke="#6C63FF"
                   stroke-width="2"
                   stroke-miterlimit="10"
                 />
-                <path class="thirdCode"
+                <path
+                  class="thirdCode"
                   d="M198.99 367.81L300.6 366.81"
                   stroke="#6C63FF"
                   stroke-width="2"
@@ -374,104 +426,119 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      data_url: [
+        "../../assets/icon/language/c.svg",
+        "../../assets/icon/language/cpp.svg",
+      ],
+    };
+  },
+};
+</script>
+
 <style scoped>
-.row{
-        align-items: center;
+.row {
+  align-items: center;
 }
-.test{
-    height: 500px;
-    width: 2rem;
-}
-
-.links_monitor{
-    animation: monitor 1s linear infinite;
-    
+.test {
+  height: 500px;
+  width: 2rem;
 }
 
-.main_monitor{
-    animation: monitor 1s linear infinite;
-    
+.skill-padding {
+  margin-bottom: 2.2rem;
 }
 
-.recht_monitor{
-    animation: monitor 1s linear infinite;
-    
+.links_monitor {
+  animation: monitor 1s linear infinite;
 }
 
-.kopf{
-    transform-origin: center center;
-animation: rotation 3s linear infinite;
+.main_monitor {
+  animation: monitor 1s linear infinite;
 }
 
-.firstCode{
-animation: first 4s linear infinite;
+.recht_monitor {
+  animation: monitor 1s linear infinite;
 }
-.secondCode{
-animation: second 4s linear infinite;
+
+.kopf {
+  transform-origin: center center;
+  animation: rotation 3s linear infinite;
 }
-.thirdCode{
-animation: third 4s linear infinite;
+
+.firstCode {
+  animation: first 4s linear infinite;
+}
+.secondCode {
+  animation: second 4s linear infinite;
+}
+.thirdCode {
+  animation: third 4s linear infinite;
 }
 
 
+
+.enter{
+  opacity: 1;
+  transition: all 3s ease-in-out;
+}
 </style>
 
 <style>
 @keyframes monitor {
-   
-    to{
-         fill: var(--hell-color);
-    }
+  to {
+    fill: var(--hell-color);
+  }
 }
 
 @keyframes rotation {
-    0%{
-        transform: rotate(0deg);
-    }
-    50%{
-         transform: rotate(10deg);
-    }
-      100%{
-         transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes first {
-    0%{
-        opacity: 0;
-    }
-    10%{
-        opacity: 0;
-    }
-    11%{
-        opacity: 1;
-    }
-    
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  11% {
+    opacity: 1;
+  }
 }
 
 @keyframes second {
-    0%{
-        opacity: 0;
-    }
-    39%{
-        opacity: 0;
-    }
-    40%{
-        opacity: 1;
-    }
-    
+  0% {
+    opacity: 0;
+  }
+  39% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
 }
 
 @keyframes third {
-    0%{
-        opacity: 0;
-    }
-    79%{
-        opacity: 0;
-    }
-    80%{
-        opacity: 1;
-    }
-    
+  0% {
+    opacity: 0;
+  }
+  79% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
 }
 </style>
